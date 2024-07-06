@@ -1,0 +1,170 @@
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .collapsed {
+    display: block;
+  }
+  
+  .editor-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #ddd;
+    color: white;
+  }
+  
+  .code-mirror-wrapper {
+    height: 100%;
+    flex: 1;
+  }
+  
+  .btn-styles {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .CodeMirror {
+    height: auto;
+    font-size: 16px;
+  }
+  
+  .CodeMirror-lines {
+    background-color: #282c34;
+    color: white;
+  }
+  
+  
+  .App .pane {
+    display: flex;
+  }
+  
+  .App .top-pane {
+    display: flex;
+    flex: 1;
+  }
+  
+  .App .preview-pane {
+    height: 50%;
+  }
+  
+  .editor-container {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+
+  
+  .App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #282c34;
+    color: white;
+  }
+  .App-header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .App-header .logo img{
+    width: 45px;
+  }
+  
+  .App-header button,
+  .App-header input {
+    margin-right: 10px;
+  }
+  
+  .App-header button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .App-header button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .App-header input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .pane {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+  }
+  
+  .top-pane {
+    flex-direction: row;
+    overflow-y: scroll;
+  }
+  
+  .preview-pane {
+    flex: 1;
+    border-top: 2px solid #ccc;
+    background: #fff;
+  }
+  
+   /* Editor Styles */ */
+   .CodeMirror { 
+     height: 100%;
+     /* height: 0px;  */
+   }
+  
+  button:focus,
+  input:focus {
+    outline: none;
+  }
+
+iframe{
+    border:2px solid
+} 
+   
+
+.preview-pane h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

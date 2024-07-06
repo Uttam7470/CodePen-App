@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+ 
+  .container p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .google-login {
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+   
+   .google-login a img {
+    width: 250px;
+    height: 50px; 
+  } 
+ .google-login img:hover {
+    transform: scale(1.1);
+  } 
+  
+   .ToastContainer {
+    z-index: 9999;
+  } 
+  
